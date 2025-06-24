@@ -1,0 +1,22 @@
+21588    & The CMake step in the report shows no errors, but the subsequent make step (linked in the report) fails.                          
+21062    & A specific setting mentioned in the report (binding the right-click to clipboard) is absent, yet the VS Code settings file remains intact.                    
+20826    & The error is not ``[Err] [MulticopterMotorModel.cc:253] Please specify a robotNamespace...'' but a service call timeout.        
+20374    & The system does not hang on ``waiting for ports'' but reports Preflight Fail: heading estimate not stable.            
+19969    & The return value is different.                                                       
+19770    & The error message is not ``Preflight Fail: height estimate not stable'', but ``magnetometer 2 error'' and ``pre-arm check error''. These errors persist after waiting but disappear when unplugging the GPS. 
+19665    & The issue is not ``Tx queue overflow error'' but failure to locate iris-hitl, with the system stuck on ``Loading hitl-iris.world...''.        
+16230    & The buzzer does not activate, but no IO errors are reported.                                                            
+16129    & No fix\_type parameter found in MAVLink Inspector.                                                                                                            
+15211    & After disabling GPS, the rover does not rotate but enters a poll timeout state, making diagnostics impossible. QGC shows it moving in a straight line.             
+14903    & Post-execution takeoff altitude exceeds 2.5 meters (not less than 2.5m as claimed).                                                                                                               
+14189    & The real-time factor starts at 5.89 immediately, rather than degrading from 16 to 5 over 10 minutes.                                                                                       
+14150    & Inconsistent errors post-report steps: an ASCII decoding error (0xe6) occurs until the file is manually fixed, after which the reported bug manifests.             
+13374    & The system fails to hold position at designated waypoints.                                                                                                                                    
+13001    & JMavSim GUI does not display, preventing visibility of bug-related prompts.                                                                                                                 
+12471    & The drone does not auto-disarm despite failing to take off.                                                                                                                                           
+12338    & After modifying specified values, actuator controls in logs do not exceed 1.     
+12241    & Command execution fails due to unknown parameter -j8, not temporary command rejection.     
+11942    & The error message in the report is the conversion error from uint8 to uint16. When reproducing, it is because robotcontrol.h is missing.                         
+10296    & Disabling joystick control causes the drone to yaw without aligning to start/end points.                                                                                           
+9554     & The final compilation command throws geo.h not found instead of the reported ecl.h error.                                          
+9513     & Step 3 triggers an error message but allows continuation, while Step 4 breaks drone control (no real-time factor error).              
