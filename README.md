@@ -109,7 +109,7 @@ python .\Code\RQ7\spearman.py
 
 ## Results
 
-The `results` folder contains the full results of our experiment. The structure of the folder is shown as below:
+The `Result` folder contains the full results of our experiment. The structure of the folder is shown as below:
 
 ```
 Result
